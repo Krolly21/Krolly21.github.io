@@ -1,0 +1,315 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+  }
+
+
+
+* {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+li {
+    list-style: none;
+}
+p {
+    font-size: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 0;
+}
+boby {
+    background: rgb(231, 231, 231);
+}
+
+/* ****************** NAV ****************** */
+
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+
+}
+
+nav li {
+    padding: 0 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.8rem;
+    padding: 20px 0;
+}
+
+/* ********* Personnalisation des bouton du nav ******** */
+
+/* ***************** FIN NAV ***************** */
+/* ***************** HEADER ***************** */
+
+header {
+    display: flex;
+    background: url(./assets/img/bg.jpg) center/cover;
+    color: rgb(207, 207, 207);
+    justify-content: center;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+#logo {}
+
+.main-header h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 40px 0;
+}
+
+.main-header button {
+    display: block;
+    background: none;
+    border: 2px solid;
+    color: rgb(207, 207, 207);
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.header-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 45px 0;
+    max-width: 1100px;
+    text-align: center;
+}
+
+
+/* *****************  FIN HEADER ***************** */
+/* ***************** ICON-PART ***************** */
+
+.icon-part {
+    background: rgb(22, 22, 22);
+    color: rgb(207, 207, 207);
+    padding: 50px 0;
+}
+
+.icon-part-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.list-icon-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.lip-logo {
+    margin: 20px 0;
+}
+
+.list-icon-part h3 {
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.list-icon-part p {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    max-width: 310px;
+}
+
+.list-icon-part button {
+    display: block;
+    background: none;
+    border: 2px solid;
+    color: rgb(207, 207, 207);
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* ********* Personnalisation des bouton du nav ******** */
+
+/* ***************** FIN ICON PART ***************** */
+/* ***************** NEWS PART ***************** */
+
+.news-part {
+    padding: 80px 0 45px;
+    background: whitesmoke;
+}
+
+.header-news {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.left-part {
+    text-align: left;
+    margin: 0 10px;
+}
+
+.left-part h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px 0;
+}
+
+.right-part {
+    margin: auto 0;
+}
+
+.right-part button {
+    display: block;
+    background: none;
+    border: 2px solid;
+    text-align: left;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.main-news-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 45px auto;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 270px;
+    margin: 0 15px;
+}
+
+.news-container h4 {
+    padding: 10px 0;
+}
+
+.news-container p {
+    padding: 5px 0;
+    font-size: 0.9rem;
+    min-height: 140px;
+}
+
+.contact {
+    padding: 40px 0 45px;
+    background: rgb(252, 252, 252);
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    max-width: 230px;
+    text-align: left;
+}
+
+.list h5 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+
+.list ul {
+    margin: auto;
+}
+
+.list li {
+    padding: 6px 0;
+}
+
+.contact-medias {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 1100px;
+    padding: 40px 0;
+}
+
+.medias-text {
+    text-align: left;
+}
+
+.medias-text h3 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 5px 0;
+    font-weight: 800;
+}
+.medias-text p {
+    padding: 5px 0;
+}
+
+.medias-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    size: 0.8rem;
+}
+
+footer {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+footer ul {    
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+footer li {
+    padding: 10px 15px;
+}
+
